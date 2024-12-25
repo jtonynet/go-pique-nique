@@ -57,19 +57,20 @@ __[Go Pique Nique](#header)__<br/>
 
 <br/>
 
+__🚧 WORK IN PROGRESS!__
+
 <a id="about"></a>
 ### 📖 Sobre
-
-__🚧 WORK IN PROGRESS!__
 
 __Resumo:__
 
 > 
-> Desafio de `Banking` `REST` Simplificado em `Event Driven` e `Arquitetura Hexagonal`. Previamente elaborado com `Event Storming`
+> Desafio de `Banking` `REST` Simplificado em `Event Driven Architecture` e `Hexagonal Architecture`. Previamente elaborado com `Event Storming`
 > Construído com `Gin` e `Gorm`,  `RabbitMQ` como serviço de `Mensageria`.
 >
 > __Principais Tecnologias e abordagens:__
 > - `Event Driven Architecture`
+> - `Event Storming`
 > - `Hexagonal Architecture`
 > - `TDD`, `DDD`, `SOLID`, `ADRs`
 > - `Diagram as code` com `Mermaid.js` e `Miro`
@@ -77,11 +78,14 @@ __Resumo:__
 > - `PostgreSQL` modelado inspirado em `Event Sourcing` para garantir `Consistência`
 > - `CI` com `GitHub Actions` 
 
+<br/>
+
+Dei início ao desafio definindo as tecnologias que iria utilizar no `ADR`: [0002: Go, Gin, Gorm e PostgreSQL com Arquitetura Hexagonal e TDD](./docs/architecture/decisions/0002-go-gin-gorm-e-postgres-com-arquitetura-hexagonal-tdd.md). Além disso, foi realizada uma sessão de `Miro` `Event Storming` para a adequada tomada de decisões, como pode ser visto no `ADR`: [0003: Event Driven Architecture](./docs/architecture/decisions/0003-event-driven-architecture.md), cujo resultado pode ser visto abaixo:
+
 <div align="center">
 <img src="./docs/assets/images/layout/screen_captures/miro_event_storming.png">
 <br/>
 
-_*Imagem retirada de sessão do Miro Board do projeto efetuada em 24/12/2024, baseada nos requisitos apresentados._
 </div>
 
 <br/>
