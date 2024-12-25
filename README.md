@@ -206,7 +206,7 @@ __Texto Original:__
 <div align="center">. . . . . . . . . . . . . . . . . . . . . . . . . . . .</div>
 <br/>
 
-O desafio sugere `PHP` `Assíncrono` ([`Swoole`](https://openswoole.com/) seria a escolha ideal), mas aceita outras linguagens. Realizei em `Golang`, com arquitetura [`Hexagonal`](https://alistair.cockburn.us/hexagonal-architecture/), devido à minha maior experiência e familiaridade, além de ser mencionada na `Job Description` como parte do stack utilizado. Essa combinação atende bem aos requisitos do desafio.
+O desafio sugere `PHP` `Assíncrono` ([`Swoole`](https://openswoole.com/) seria uma boa alternativa), mas aceita outras linguagens. Realizarei em [`Golang`](https://go.dev/), com arquitetura [`Hexagonal`](https://alistair.cockburn.us/hexagonal-architecture/), devido à minha maior experiência e familiaridade, além de ser mencionada na `Job Description` como parte do stack utilizado. Essa combinação atende bem aos requisitos do desafio.
 
 Possuo experiência anterior com `PHP`, mas preferi minha principal stack do momento. Contudo, sou aberto a expandir minhas habilidades e disposto a aprender novas tecnologias e paradigmas ou revisitar conforme necessário.
 
