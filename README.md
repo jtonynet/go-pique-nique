@@ -62,7 +62,34 @@ __[Go Pique Nique](#header)__<br/>
 
 __🚧 WORK IN PROGRESS!__
 
-Este repositório foi criado com a intenção de propor uma possível solução para o seguinte desafio:
+__Resumo:__
+
+> 
+> Desafio de `Banking` `REST` Simplificado em `Event Driven` e `Arquitetura Hexagonal`. Previamente elaborado com `Event Storming`
+> Construído com `Gin` e `Gorm`,  `RabbitMQ` como serviço de `Mensageria`.
+>
+> __Principais Tecnologias e abordagens:__
+> - `Event Driven Architecture`
+> - `Hexagonal Architecture`
+> - `TDD`, `DDD`, `SOLID`, `ADRs`
+> - `Diagram as code` com `Mermaid.js` e `Miro`
+> - `Dockerized` Solução com uso de containers
+> - `PostgreSQL` modelado inspirado em `Event Sourcing` para garantir `Consistência`
+> - `CI` com `GitHub Actions` 
+
+<div align="center">
+<img src="./docs/assets/images/layout/screen_captures/miro_event_storming.png">
+<br/>
+
+_*Imagem retirada de sessão do Miro Board do projeto efetuada em 24/12/2024, baseada nos requisitos apresentados._
+</div>
+
+<br/>
+<div align="center">. . . . . . . . . . . . . . . . . . . . . . . . . . . .</div>
+<br/>
+
+__Texto Original:__
+
 
 > #### Objetivo: `Event Driven & Hexagonal Banking`
 > 
@@ -176,14 +203,14 @@ Este repositório foi criado com a intenção de propor uma possível solução 
 > - Carinho em `desacoplar` componentes (outras camadas, `service`, `repository`)
 
 <br/>
-
-<div align="center">
-<img src="./docs/assets/images/layout/screen_captures/miro_event_storming.png">
+<div align="center">. . . . . . . . . . . . . . . . . . . . . . . . . . . .</div>
 <br/>
 
-_*Imagem retirada de sessão do Miro Board do projeto efetuada em 24/12/2024, baseada nos requisitos apresentados._
+O desafio sugere `PHP` `Assíncrono` ([`Swoole`](https://openswoole.com/) seria a escolha ideal), mas aceita outras linguagens. Realizei em `Golang`, com arquitetura [`Hexagonal`](https://alistair.cockburn.us/hexagonal-architecture/), devido à minha maior experiência e familiaridade, além de ser mencionada na `Job Description` como parte do stack utilizado. Essa combinação atende bem aos requisitos do desafio.
 
-</div>
+Possuo experiência anterior com `PHP`, mas preferi minha principal stack do momento. Contudo, sou aberto a expandir minhas habilidades e disposto a aprender novas tecnologias e paradigmas ou revisitar conforme necessário.
+
+Visite os [`ADRs`](#adr) do projeto para obter maior contexto.
 
 [⤴️ de volta ao índice](#index)
 

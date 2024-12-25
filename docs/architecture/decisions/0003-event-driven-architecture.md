@@ -8,7 +8,7 @@ Proposto
 
 ## Contexto
 
-### `Pique Nique EDA` - Escolha de Arquitetura e Abordagem aderentes aos requisitos do Projeto
+### `Pique Nique Banking` - Escolha de Arquitetura e Abordagem aderentes aos requisitos do Projeto
 
 Este documento tem como objetivo discutir a utilização da [`Event Driven Architecture`](https://en.wikipedia.org/wiki/Event-driven_architecture) no projeto proposto pelo desafio, conforme evidenciado na seção correspondente do arquivo [README](./../../../README.md):
 
